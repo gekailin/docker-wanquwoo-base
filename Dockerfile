@@ -9,6 +9,6 @@ RUN true && \
     rm -rf /var/lib/apt/lists/* && \
     true
 
-RUN pip3 install qrcode
+RUN pip3 install qrcode flask-cors
 
 CMD ["/bin/bash"]
